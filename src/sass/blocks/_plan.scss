@@ -1,0 +1,75 @@
+.plan {
+    width: 100%;
+    height: 500px;
+    background: url(../img/main5.png) center (center/cover) no-repeat;
+    &__wrapper_first {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    &__item {
+        width: 250px;
+    }
+
+    &__descr {
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        &_1 {
+            margin-top: 17px;
+        }
+
+        &_2 {
+            margin-top: 11px;
+        }
+
+        &_3 {
+            margin-top: 18px;
+        }
+
+        &_4 {
+            margin-top: 14px;
+        }
+        span {
+            color: $main-color;
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+
+
+    &__wrapper_second {
+        display: flex;
+        justify-content: center;
+        margin-top: 26px;
+        text-align: center;
+    }
+    &__item {
+        width: 250px;
+
+        &_5{
+            width: 230px;
+        }
+        &_6 {
+            width: 257px;
+            margin-left: 46px;
+        }
+        &_7 {
+            width: 210px;
+            margin-left: 59px;
+        }
+    }
+    &__descr {
+        &_5 {
+            margin-top: 14px;
+        }
+        &_6 {
+            margin-top: 11px;
+        }
+        &_7 {
+            margin-top: 11px;
+        }
+    }
+}

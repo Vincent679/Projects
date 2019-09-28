@@ -1,0 +1,28 @@
+.title {
+    text-align: center;
+    color: #2e2e2e;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 23px;
+    text-transform: uppercase;
+    &_adv {
+        padding-top: 57px;
+    }
+
+    &_work {
+        padding-top: 51px;
+        
+    
+    }
+
+    &_catalog {
+        margin-top: 53px;
+    }
+
+    &_plan {
+        padding-top: 51px;
+    }
+    &_feedback {
+        margin-top: 51px;
+    }
+}
